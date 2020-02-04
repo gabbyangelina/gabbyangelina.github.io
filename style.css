@@ -11,21 +11,8 @@ body {
 }
 /* the main container */
 
-/* .front-side,
-.back-side {
-  width: 390px;
-  height: 220px;
-  position: relative;
-  /* adjust this to space out the cards */
-  margin: 20px auto;
-  overflow: hidden;
-  box-shadow: 2px 5px 15px 0px #17161694;
-  background-color:antiquewhite;
-} */ 
 
-/* .front-side{
-  background-image: url('cloud.svg');
-} */
+
 
 .name{
   margin-top:20%;
