@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+
+
+body {
+    background-color: rgb(247, 247, 248);
+    font-family: 'font-family: 'Comfortaa', cursive;', serif;
+}
+/* the main container */
+
+.front-side,
+.back-side {
+  width: 220px;
+  height: 390px;
+  /* display: grid; */
+  /* each student will customize based on their grid */
+  /* grid-template-columns: 2% 96% 2%;
+  grid-template-rows: 4% 92% 4%; */
+  position: relative;
+  /* adjust this to space out the cards */
+  margin: 50px auto;
+  overflow: hidden;
+  box-shadow: 2px 5px 15px 0px #17161694;
+  background-color:rgb(255, 255, 230);
+}
+
+.front-side{
+  background-image: url('beachtheater.svg');}
+
+.name{
+  display: grid;
+  position: relative;
+  margin-left:30px;
+  padding: 10px
+
+}
+
+.secondary{
+  display: grid;
+  position: relative;
+  margin-left:10px;
+  padding-top: 40px;
+
+}
+.back-side{background-image: url('businesscardmockupbacksidecopy3.svg');}
+
+
+
+h3{
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+.graphic{
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+h5{
+  padding-top: 10px;
+  
+} 
