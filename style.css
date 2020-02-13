@@ -6,9 +6,8 @@
 
 
 body {
-    background-color: rgb(247, 247, 248);
-    font-family: 'font-family: 'Comfortaa', cursive;', serif;
-}
+    background-color: rgb(247, 247, 248);}
+  
 /* the main container */
 
 .front-side,
@@ -27,8 +26,7 @@ body {
   background-color:rgb(255, 255, 230);
 }
 
-.front-side{
-  background-image: url('beachtheater.svg');}
+.front-side{background-image: url('businesscardfrontlogo copy.svg');}
 
 .name{
   display: grid;
