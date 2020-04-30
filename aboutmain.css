@@ -1,0 +1,64 @@
+body {
+    background-color: ghostwhite;
+}
+
+h3 {
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 70px;
+    padding-bottom: 50px;  
+}
+
+h1 {
+    overflow: hidden;
+    border-block-end-style: .15em mediumpurple;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation:
+    typing 4s,
+    blink-caret .75s step-end infinite;
+    }
+    
+    @keyframes typing {
+    from {width: 0}
+    to {width: 100%}
+    }
+
+    h1 {
+    padding-left: 75px;
+    padding-top: 75px;
+    color: indigo;
+    background-color: lavender; 
+    font-size: 50px;   
+    }
+
+    img {
+        padding-top: 110px;
+        padding-left: 550px;
+        width: 40%;
+        display: flex;
+        flex-direction: row;
+        align-self: flex-end;
+    }
+    
+    button {
+        color:indigo;
+        background-color: lavender;
+        border-radius:50%;
+    }
+
+
+h3 p {
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    text-size-adjust: flex;
+    font-weight: 400;
+    padding-left:70px;
+    padding-right:70px;
+    line-height: 25px;
+}
+
+.buttons {
+    padding-left: 625px;
+}

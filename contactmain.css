@@ -1,0 +1,50 @@
+
+h1 {
+    overflow: hidden;
+    border-block-end-style: .15em mediumpurple;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation:
+    typing 4s,
+    blink-caret .75s step-end infinite;
+    }
+    
+    @keyframes typing {
+    from {width: 0}
+    to {width: 100%}
+    }
+
+    h1 {
+    padding-left: 75px;
+    padding-top: 75px;
+    color: indigo;
+    background-color: lavender; 
+    font-size: 50px;   
+    }
+
+    li{
+        font-family: 'Lora', serif;  
+        font-weight: 800;
+        padding: 47px;
+        display: inline;
+        }
+      
+      a:link {
+        text-decoration: none;
+        color: darkgrey;
+      }
+      
+      a:visited {
+        text-decoration: none;
+        color:darkgrey;
+      }
+      
+      a:hover {
+        text-decoration: underline;
+        color: indigo
+      }
+      
+      a:active {
+        text-decoration: underline;
+      }

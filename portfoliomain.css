@@ -1,0 +1,28 @@
+body {
+    background-color: ghostwhite;
+}
+
+h1 {
+    overflow: hidden;
+    border-block-end-style: .15em mediumpurple;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation:
+    typing 4s,
+    blink-caret .75s step-end infinite;
+    }
+    
+    @keyframes typing {
+    from {width: 0}
+    to {width: 100%}
+    }
+    
+    h2 {
+        padding-left: 75px;
+        padding-top: 75px;
+        color: indigo;
+        font-size: 50px;   
+        font-family:'Lato', sans-serif; 
+        }
+    
