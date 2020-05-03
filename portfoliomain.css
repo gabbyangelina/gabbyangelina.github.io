@@ -4,7 +4,8 @@ body {
 
 h1 {
     overflow: hidden;
-    border-block-end-style: .15em mediumpurple;
+    border-block-end-style: .15em;
+    border-radius: 15px;
     white-space: nowrap;
     margin: 0 auto;
     letter-spacing: .15em;
@@ -12,6 +13,14 @@ h1 {
     typing 4s,
     blink-caret .75s step-end infinite;
     }
+
+h1 {
+        padding-left: 75px;
+        padding-top: 75px;
+        color: indigo;
+        background-color: pink; 
+        font-size: 50px;   
+        }
     
     @keyframes typing {
     from {width: 0}
@@ -19,10 +28,49 @@ h1 {
     }
     
     h2 {
-        padding-left: 75px;
+        padding-left: 70px;
         padding-top: 75px;
         color: indigo;
-        font-size: 50px;   
+        font-size: 25px;   
         font-family:'Lato', sans-serif; 
         }
+
+       p {
+            font-family: 'Lato', sans-serif;
+            text-align: left;
+            text-size-adjust: flex;
+            font-weight: 400;
+            padding-left:70px;
+            padding-right:70px;
+            padding-bottom:25px;
+            line-height: 25px;
+        }       
+        
+.trappedbytv img {
+    padding-left:70px;
+}      
+
+.golphin img {
+    padding-left:70px;
+}
+
+.illustrations img {
+    padding-left:70px;
+}
+
+.shadowsproject img {
+    padding-left:70px;
+}
+
+.frameproject img{
+    padding-left:70px;
+}
+
+.portrait img {
+    padding-left:70px;
+}
+
+.landscape img {
+    padding-left:70px;
+}
     

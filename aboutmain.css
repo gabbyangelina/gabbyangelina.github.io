@@ -11,7 +11,8 @@ h3 {
 
 h1 {
     overflow: hidden;
-    border-block-end-style: .15em mediumpurple;
+    border-block-end-style: .15em;
+    border-radius: 15px;
     white-space: nowrap;
     margin: 0 auto;
     letter-spacing: .15em;
@@ -29,14 +30,13 @@ h1 {
     padding-left: 75px;
     padding-top: 75px;
     color: indigo;
-    background-color: lavender; 
+    background-color: pink; 
     font-size: 50px;   
     }
 
     img {
         padding-top: 110px;
         padding-left: 550px;
-        width: 40%;
         display: flex;
         flex-direction: row;
         align-self: flex-end;
@@ -57,6 +57,13 @@ h3 p {
     padding-left:70px;
     padding-right:70px;
     line-height: 25px;
+    text-indent: 50px;
+}
+h2 {
+    font-family: 'Lato', sans-serif; 
+    color: indigo;
+    padding-left:585px;
+    padding-top:100px;
 }
 
 .buttons {

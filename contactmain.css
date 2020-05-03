@@ -1,7 +1,11 @@
+body {
+  background-color: ghostwhite;
+}
 
 h1 {
     overflow: hidden;
-    border-block-end-style: .15em mediumpurple;
+    border-block-end-style: .15em;
+    border-radius: 15px;
     white-space: nowrap;
     margin: 0 auto;
     letter-spacing: .15em;
@@ -19,16 +23,34 @@ h1 {
     padding-left: 75px;
     padding-top: 75px;
     color: indigo;
-    background-color: lavender; 
+    background-color: pink; 
     font-size: 50px;   
     }
 
-    li{
-        font-family: 'Lora', serif;  
-        font-weight: 800;
-        padding: 47px;
-        display: inline;
-        }
+    li a {
+      font-family: 'Lora', serif;  
+      font-weight: 800;
+      padding: 47px;
+      display: inline;
+      padding-top:25px;
+      padding-left:75px;
+      list-style-type: none;
+      } 
+
+    Ul li a {
+      display: flex;
+      flex-direction: row;
+      list-style-type: none;
+    } 
+    
+    ul {
+    max-width: 640px;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: row; 
+    list-style-type: none;
+    }
       
       a:link {
         text-decoration: none;
@@ -48,3 +70,10 @@ h1 {
       a:active {
         text-decoration: underline;
       }
+
+.garlogo img {
+  width:200px;
+  height:250px;
+  padding-left:135px;
+  padding-top:50px;
+}
