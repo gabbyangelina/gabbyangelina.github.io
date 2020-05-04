@@ -46,15 +46,6 @@ nav{
   }
 
   /* HEADER CSS */
-.parallax-wrapper {
-    position: relative;
-    background-image: url('windowpic.png');
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-    background-color: ghostwhite;
-}
 
 .welcome{
     margin-top: 20vh;
