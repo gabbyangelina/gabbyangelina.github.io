@@ -48,7 +48,7 @@ nav{
   /* HEADER CSS */
 .header {
     position: relative;
-    background-image: url('./assets/floridabeach2.png');
+    background-image: url('assets/floridabeach2.png');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
