@@ -46,13 +46,13 @@ nav{
   }
 
   /* HEADER CSS */
-.header {
+.parallax-wrapper {
     position: relative;
-    background-image: url('floridabeach.png');
+    background-image: url('windowpic.png');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 80vh;
+    height: 100vh;
     background-color: ghostwhite;
 }
 
