@@ -36,7 +36,7 @@ h1 {
 
     img {
         padding-top: 110px;
-        padding-left: 550px;
+        padding-left: 540px;
         display: flex;
         flex-direction: row;
         align-self: flex-end;
@@ -62,17 +62,13 @@ h3 p {
 h2 {
     font-family: 'Lato', sans-serif; 
     color: indigo;
-    padding-left:585px;
-    padding-top:100px;
-}
-
-.buttons {
-    padding-left: 625px;
+    padding-left:575px;
+    padding-top:50px;
 }
 
 .resume a {
     font-family: 'Lato', sans-serif; 
-    padding-left:515px;
+    padding-left:500px;
 }
 
 footer{
