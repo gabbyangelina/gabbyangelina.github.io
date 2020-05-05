@@ -73,4 +73,23 @@ h1 {
 .landscape img {
     padding-left:70px;
 }
+
+footer{
+    grid-area:footer;
+  }
+  footer li {
+    display:inline;
+  }
+  
+  footer p{
+    font-size: 0.8em;
+    color: indigo;
+    padding-left: 645px;
+  }
+  svg {
+    width: 3%;
+    color: indigo;
+    padding-left:650px;
+    padding-top:50px;
+  }
     

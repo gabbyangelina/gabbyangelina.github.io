@@ -3,9 +3,9 @@ body {
 }
 
 h3 {
-    padding-left: 75px;
-    padding-right: 75px;
-    padding-top: 70px;
+    padding-left: 175px;
+    padding-right: 175px;
+    padding-top: 40px;
     padding-bottom: 50px;  
 }
 
@@ -70,7 +70,26 @@ h2 {
     padding-left: 625px;
 }
 
-.footer a {
+.resume a {
     font-family: 'Lato', sans-serif; 
     padding-left:515px;
 }
+
+footer{
+    grid-area:footer;
+  }
+  footer li {
+    display:inline;
+  }
+  
+  footer p{
+    font-size: 0.8em;
+    color: indigo;
+    padding-left: 645px;
+  }
+  svg {
+    width: 3%;
+    color: indigo;
+    padding-left:650px;
+    padding-top:50px;
+  }

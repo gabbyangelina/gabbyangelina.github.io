@@ -77,3 +77,22 @@ h1 {
   padding-left:135px;
   padding-top:50px;
 }
+
+footer{
+  grid-area:footer;
+}
+footer li {
+  display:inline;
+}
+
+footer p{
+  font-size: 0.8em;
+  color: indigo;
+  padding-left: 220px;
+}
+svg {
+  width: 3%;
+  color: indigo;
+  padding-left:150px;
+  padding-top:50px;
+}
