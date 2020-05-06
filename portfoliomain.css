@@ -1,6 +1,8 @@
+
 body {
-    background-color: ghostwhite;
+  background-color: ghostwhite;
 }
+
 
 h1 {
     overflow: hidden;
@@ -18,8 +20,8 @@ h1 {
         padding-left: 75px;
         padding-top: 75px;
         color: indigo;
-        background-color: pink; 
-        font-size: 50px;   
+        background-color: #FFDBE9; 
+        font-size: 60px;   
         }
     
     @keyframes typing {
@@ -33,6 +35,8 @@ h1 {
         color: indigo;
         font-size: 25px;   
         font-family:'Lato', sans-serif; 
+        font-weight: bolder;
+        font-size: x-large;
         }
 
        p {
@@ -41,9 +45,11 @@ h1 {
             text-size-adjust: flex;
             font-weight: 400;
             padding-left:70px;
-            padding-right:70px;
+            padding-right:100px;
             padding-bottom:25px;
             line-height: 25px;
+            font-weight: 600;
+            width:775px;
         }       
         
 .trappedbytv img {
@@ -88,8 +94,7 @@ footer{
   }
   svg {
     width: 3%;
-    color: indigo;
+    color: #FFDBE9;
     padding-left:650px;
     padding-top:50px;
   }
-    

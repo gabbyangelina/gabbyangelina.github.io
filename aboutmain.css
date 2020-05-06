@@ -30,13 +30,13 @@ h1 {
     padding-left: 75px;
     padding-top: 75px;
     color: indigo;
-    background-color: pink; 
+    background-color: #FFDBE9; 
     font-size: 50px;   
     }
 
     img {
         padding-top: 110px;
-        padding-left: 600px;
+        padding-left: 550px;
         display: flex;
         flex-direction: row;
         align-self: flex-end;
@@ -54,15 +54,15 @@ h3 p {
     text-align: left;
     text-size-adjust: flex;
     font-weight: 400;
-    padding-left:70px;
-    padding-right:70px;
     line-height: 25px;
     text-indent: 50px;
+    padding-left: 70px;
+    padding-right: 70px;
 }
 h2 {
     font-family: 'Lato', sans-serif; 
     color: indigo;
-    padding-left:635px;
+    padding-left:585px;
     padding-top:50px;
 }
 
@@ -85,7 +85,7 @@ footer{
   }
   svg {
     width: 3%;
-    color: indigo;
+    color: #FFDBE9;
     padding-left:650px;
     padding-top:50px;
   }

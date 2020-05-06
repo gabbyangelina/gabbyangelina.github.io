@@ -16,7 +16,7 @@ li{
 
 a:link {
   text-decoration: none;
-  color: darkgrey;
+  color:darkgrey;
 }
 
 a:visited {
@@ -35,7 +35,7 @@ a:active {
 
 nav{
   font-size: 30px;
-  background-color: lavender;
+  background-color: #FFDBE9;
   
   }
 
@@ -49,7 +49,7 @@ nav{
     color: white}
 
 #changingword {
-    color: lavender;
+    color: #FFDBE9;
     font-family: 'Lato', sans-serif;
       } 
 
@@ -83,7 +83,7 @@ footer p{
 }
 svg {
     width: 40%;
-    color: indigo;
+    color: #FFDBE9;
 }
 
   /* MEDIA QUERY FOR SMALL SCREENS */
